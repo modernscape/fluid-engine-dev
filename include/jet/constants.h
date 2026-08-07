@@ -10,6 +10,7 @@
 #include <jet/macros.h>
 #include <cmath>
 #include <limits>
+#include <sys/types.h>
 
 namespace jet {
 
