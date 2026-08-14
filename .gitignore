@@ -87,7 +87,7 @@ unit_tests_output
 *.pos
 *.tga
 *.gif
-*.mp4
+# *.mp4
 *.xyz
 
 # NuGet
