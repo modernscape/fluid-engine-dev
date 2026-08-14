@@ -80,7 +80,7 @@ build*
 *.pdf
 output
 dist
-# manual_tests_output
+manual_tests_output
 unit_tests_output
 *.bat
 *.vol
