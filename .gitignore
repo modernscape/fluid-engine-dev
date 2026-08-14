@@ -55,7 +55,7 @@
 *.g.cpp
 *.xbf
 *.pri
-*.png
+# *.png
 *.winmd
 *.appxrecipe
 *.sublime-workspace
