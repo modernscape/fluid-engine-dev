@@ -66,7 +66,7 @@ set(RESOURCES_OBJS
         ${RESOURCES_DIR}/dragon.obj)
 set(unzip_py ${CMAKE_CURRENT_SOURCE_DIR}/scripts/unzip.py)
 add_custom_command(
-        COMMAND python ${unzip_py} ${RESOURCES_DIR}/resources.zip ${RESOURCES_DIR}
+        COMMAND python3 ${unzip_py} ${RESOURCES_DIR}/resources.zip ${RESOURCES_DIR}
         DEPENDS ${headers}
         OUTPUT ${RESOURCES_OBJS})
 add_custom_target(unzip_py ALL
